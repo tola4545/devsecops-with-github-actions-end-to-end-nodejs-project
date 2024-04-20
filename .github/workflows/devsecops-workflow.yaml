@@ -20,7 +20,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=devsecopsganodejsprojectkeys
-          -Dsonar.projectKey=devsecopsganodejsprojectkeys
+          -Dsonar.projectKey=devsecopsganodejsprojectkeys_devsecopsganodejsprojectkeys
   security:
     runs-on: ubuntu-latest
     needs: build
